@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27016CB21A5911BF0030F82C /* fullcountingsort.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CAC1A5911BF0030F82C /* fullcountingsort.c */; };
+		27016CB31A5911BF0030F82C /* circlecity.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CAE1A5911BF0030F82C /* circlecity.c */; };
+		27016CB41A5911BF0030F82C /* coinonthetable.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CAF1A5911BF0030F82C /* coinonthetable.c */; };
+		27016CB51A5911BF0030F82C /* mrkmarsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CB01A5911BF0030F82C /* mrkmarsh.c */; };
+		27016CB61A5911BF0030F82C /* thegridsearch.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CB11A5911BF0030F82C /* thegridsearch.c */; };
+		27016CB91A59123B0030F82C /* stockmaximize.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CB81A59123B0030F82C /* stockmaximize.c */; };
+		27016CBD1A5916530030F82C /* sorting.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CBC1A5916530030F82C /* sorting.c */; };
+		27016CC01A591E420030F82C /* candies.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CBF1A591E420030F82C /* candies.c */; };
+		27016CC21A59239C0030F82C /* maximumsubarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CC11A59239C0030F82C /* maximumsubarray.c */; };
+		27016CC51A5927B30030F82C /* lists.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CC41A5927B30030F82C /* lists.c */; };
+		27016CC71A593BBC0030F82C /* unboundedknapsack.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CC61A593BBC0030F82C /* unboundedknapsack.c */; };
+		27016CCC1A5A09680030F82C /* countergame.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CCB1A5A09670030F82C /* countergame.c */; };
+		27016CD11A5A325E0030F82C /* anagram.c in Sources */ = {isa = PBXBuildFile; fileRef = 27016CD01A5A325E0030F82C /* anagram.c */; };
+		271571241A5B801F002D61AB /* flippingbits.c in Sources */ = {isa = PBXBuildFile; fileRef = 271571231A5B801F002D61AB /* flippingbits.c */; };
+		271571261A5D1256002D61AB /* fillingjars.c in Sources */ = {isa = PBXBuildFile; fileRef = 271571251A5D1256002D61AB /* fillingjars.c */; };
+		271571281A5D14A0002D61AB /* sherlockandsquares.c in Sources */ = {isa = PBXBuildFile; fileRef = 271571271A5D14A0002D61AB /* sherlockandsquares.c */; };
+		2715712A1A5D21E7002D61AB /* halloweenparty.c in Sources */ = {isa = PBXBuildFile; fileRef = 271571291A5D21E7002D61AB /* halloweenparty.c */; };
+		2715712C1A5D235D002D61AB /* manasastones.c in Sources */ = {isa = PBXBuildFile; fileRef = 2715712B1A5D235D002D61AB /* manasastones.c */; };
+		2715712E1A5D2B3B002D61AB /* sherlockandGCG.c in Sources */ = {isa = PBXBuildFile; fileRef = 2715712D1A5D2B3B002D61AB /* sherlockandGCG.c */; };
+		271571301A5D3089002D61AB /* AcmIcpcTeam.c in Sources */ = {isa = PBXBuildFile; fileRef = 2715712F1A5D3089002D61AB /* AcmIcpcTeam.c */; };
+		271EA3D21A2EF487001BE9D2 /* hackerrank.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 271EA3D11A2EF487001BE9D2 /* hackerrank.1 */; };
+		2759F96C1A5A5AD3006C30B0 /* eventree.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F96B1A5A5AD3006C30B0 /* eventree.c */; };
+		2759F96E1A5A5B38006C30B0 /* journeytothemoon.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F96D1A5A5B38006C30B0 /* journeytothemoon.c */; };
+		2759F9701A5A5BCE006C30B0 /* snakesandladders.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F96F1A5A5BCE006C30B0 /* snakesandladders.c */; };
+		2759F9721A5A5BFE006C30B0 /* matrix.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9711A5A5BFE006C30B0 /* matrix.c */; };
+		2759F9741A5A5C8B006C30B0 /* kingdomconnectivity.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9731A5A5C8B006C30B0 /* kingdomconnectivity.c */; };
+		2759F9771A5A5F33006C30B0 /* solvemefirst.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9761A5A5F33006C30B0 /* solvemefirst.c */; };
+		2759F9791A5A5F99006C30B0 /* finddigits.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9781A5A5F99006C30B0 /* finddigits.c */; };
+		2759F97B1A5A6028006C30B0 /* utopiantree.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F97A1A5A6028006C30B0 /* utopiantree.c */; };
+		2759F97D1A5A6077006C30B0 /* angrychildren.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F97C1A5A6077006C30B0 /* angrychildren.c */; };
+		2759F97F1A5A6386006C30B0 /* gameofthrones1.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F97E1A5A6386006C30B0 /* gameofthrones1.c */; };
+		2759F9811A5A6476006C30B0 /* chocolatefeast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9801A5A6476006C30B0 /* chocolatefeast.c */; };
+		2759F9831A5A64BE006C30B0 /* sherlockandthebeast.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9821A5A64BE006C30B0 /* sherlockandthebeast.c */; };
+		2759F9851A5A6846006C30B0 /* isfibo.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9841A5A6846006C30B0 /* isfibo.c */; };
+		2759F9881A5A6927006C30B0 /* searching.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9871A5A6927006C30B0 /* searching.c */; };
+		2759F98A1A5A6DCF006C30B0 /* maximizingxor.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9891A5A6DCF006C30B0 /* maximizingxor.c */; };
+		27661DDC1A5E5DC500B31B95 /* cavitymap.c in Sources */ = {isa = PBXBuildFile; fileRef = 27661DDB1A5E5DC500B31B95 /* cavitymap.c */; };
+		27661DDE1A5E635400B31B95 /* servicelane.c in Sources */ = {isa = PBXBuildFile; fileRef = 27661DDD1A5E635400B31B95 /* servicelane.c */; };
+		27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185201A62675C0085B6D0 /* cutthesticks.c */; };
+		27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185221A6268FA0085B6D0 /* sherlockandarray.c */; };
+		27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185241A626B320085B6D0 /* sherlockandqueries.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		271EA3CA1A2EF487001BE9D2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				271EA3D21A2EF487001BE9D2 /* hackerrank.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27016CAC1A5911BF0030F82C /* fullcountingsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fullcountingsort.c; sourceTree = "<group>"; };
+		27016CAE1A5911BF0030F82C /* circlecity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = circlecity.c; sourceTree = "<group>"; };
+		27016CAF1A5911BF0030F82C /* coinonthetable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = coinonthetable.c; sourceTree = "<group>"; };
+		27016CB01A5911BF0030F82C /* mrkmarsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mrkmarsh.c; sourceTree = "<group>"; };
+		27016CB11A5911BF0030F82C /* thegridsearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thegridsearch.c; sourceTree = "<group>"; };
+		27016CB81A59123B0030F82C /* stockmaximize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stockmaximize.c; sourceTree = "<group>"; };
+		27016CBC1A5916530030F82C /* sorting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sorting.c; sourceTree = "<group>"; };
+		27016CBE1A59165C0030F82C /* sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sorting.h; sourceTree = "<group>"; };
+		27016CBF1A591E420030F82C /* candies.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = candies.c; sourceTree = "<group>"; };
+		27016CC11A59239C0030F82C /* maximumsubarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maximumsubarray.c; sourceTree = "<group>"; };
+		27016CC31A59273F0030F82C /* lists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lists.h; sourceTree = "<group>"; };
+		27016CC41A5927B30030F82C /* lists.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lists.c; sourceTree = "<group>"; };
+		27016CC61A593BBC0030F82C /* unboundedknapsack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unboundedknapsack.c; sourceTree = "<group>"; };
+		27016CCB1A5A09670030F82C /* countergame.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = countergame.c; sourceTree = "<group>"; };
+		27016CD01A5A325E0030F82C /* anagram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = anagram.c; sourceTree = "<group>"; };
+		271571231A5B801F002D61AB /* flippingbits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flippingbits.c; sourceTree = "<group>"; };
+		271571251A5D1256002D61AB /* fillingjars.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fillingjars.c; sourceTree = "<group>"; };
+		271571271A5D14A0002D61AB /* sherlockandsquares.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandsquares.c; sourceTree = "<group>"; };
+		271571291A5D21E7002D61AB /* halloweenparty.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = halloweenparty.c; sourceTree = "<group>"; };
+		2715712B1A5D235D002D61AB /* manasastones.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = manasastones.c; sourceTree = "<group>"; };
+		2715712D1A5D2B3B002D61AB /* sherlockandGCG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandGCG.c; sourceTree = "<group>"; };
+		2715712F1A5D3089002D61AB /* AcmIcpcTeam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AcmIcpcTeam.c; sourceTree = "<group>"; };
+		271EA3CC1A2EF487001BE9D2 /* hackerrank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hackerrank; sourceTree = BUILT_PRODUCTS_DIR; };
+		271EA3D11A2EF487001BE9D2 /* hackerrank.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = hackerrank.1; sourceTree = "<group>"; };
+		2759F96B1A5A5AD3006C30B0 /* eventree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eventree.c; sourceTree = "<group>"; };
+		2759F96D1A5A5B38006C30B0 /* journeytothemoon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = journeytothemoon.c; sourceTree = "<group>"; };
+		2759F96F1A5A5BCE006C30B0 /* snakesandladders.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = snakesandladders.c; sourceTree = "<group>"; };
+		2759F9711A5A5BFE006C30B0 /* matrix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = matrix.c; sourceTree = "<group>"; };
+		2759F9731A5A5C8B006C30B0 /* kingdomconnectivity.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kingdomconnectivity.c; sourceTree = "<group>"; };
+		2759F9761A5A5F33006C30B0 /* solvemefirst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = solvemefirst.c; sourceTree = "<group>"; };
+		2759F9781A5A5F99006C30B0 /* finddigits.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = finddigits.c; sourceTree = "<group>"; };
+		2759F97A1A5A6028006C30B0 /* utopiantree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = utopiantree.c; sourceTree = "<group>"; };
+		2759F97C1A5A6077006C30B0 /* angrychildren.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = angrychildren.c; sourceTree = "<group>"; };
+		2759F97E1A5A6386006C30B0 /* gameofthrones1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gameofthrones1.c; sourceTree = "<group>"; };
+		2759F9801A5A6476006C30B0 /* chocolatefeast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chocolatefeast.c; sourceTree = "<group>"; };
+		2759F9821A5A64BE006C30B0 /* sherlockandthebeast.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandthebeast.c; sourceTree = "<group>"; };
+		2759F9841A5A6846006C30B0 /* isfibo.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = isfibo.c; sourceTree = "<group>"; };
+		2759F9861A5A691A006C30B0 /* searching.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = searching.h; sourceTree = "<group>"; };
+		2759F9871A5A6927006C30B0 /* searching.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = searching.c; sourceTree = "<group>"; };
+		2759F9891A5A6DCF006C30B0 /* maximizingxor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = maximizingxor.c; sourceTree = "<group>"; };
+		2759F98B1A5A7023006C30B0 /* primitivetypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = primitivetypes.h; sourceTree = "<group>"; };
+		27661DDB1A5E5DC500B31B95 /* cavitymap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cavitymap.c; sourceTree = "<group>"; };
+		27661DDD1A5E635400B31B95 /* servicelane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = servicelane.c; sourceTree = "<group>"; };
+		27D185201A62675C0085B6D0 /* cutthesticks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutthesticks.c; sourceTree = "<group>"; };
+		27D185221A6268FA0085B6D0 /* sherlockandarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandarray.c; sourceTree = "<group>"; };
+		27D185241A626B320085B6D0 /* sherlockandqueries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandqueries.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		271EA3C91A2EF487001BE9D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27016CAA1A5911BF0030F82C /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				27016CAB1A5911BF0030F82C /* ArraysAndSorting */,
+				27016CCA1A5A09500030F82C /* BitManipulation */,
+				27016CB71A5912240030F82C /* DynamicProgramming */,
+				2759F96A1A5A5AC1006C30B0 /* GraphTheory */,
+				27661DDA1A5E5D8600B31B95 /* Implementation */,
+				27016CAD1A5911BF0030F82C /* Search */,
+				27016CCD1A5A216A0030F82C /* Strings */,
+				2759F9751A5A5F06006C30B0 /* Warmup */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		27016CAB1A5911BF0030F82C /* ArraysAndSorting */ = {
+			isa = PBXGroup;
+			children = (
+				27016CAC1A5911BF0030F82C /* fullcountingsort.c */,
+			);
+			path = ArraysAndSorting;
+			sourceTree = "<group>";
+		};
+		27016CAD1A5911BF0030F82C /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				27016CAE1A5911BF0030F82C /* circlecity.c */,
+				27016CAF1A5911BF0030F82C /* coinonthetable.c */,
+				27016CB01A5911BF0030F82C /* mrkmarsh.c */,
+				27016CB11A5911BF0030F82C /* thegridsearch.c */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		27016CB71A5912240030F82C /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				27016CB81A59123B0030F82C /* stockmaximize.c */,
+				27016CBF1A591E420030F82C /* candies.c */,
+				27016CC11A59239C0030F82C /* maximumsubarray.c */,
+				27016CC61A593BBC0030F82C /* unboundedknapsack.c */,
+			);
+			path = DynamicProgramming;
+			sourceTree = "<group>";
+		};
+		27016CBA1A59161A0030F82C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				27016CC31A59273F0030F82C /* lists.h */,
+				27016CC41A5927B30030F82C /* lists.c */,
+				2759F98B1A5A7023006C30B0 /* primitivetypes.h */,
+				2759F9861A5A691A006C30B0 /* searching.h */,
+				2759F9871A5A6927006C30B0 /* searching.c */,
+				27016CBE1A59165C0030F82C /* sorting.h */,
+				27016CBC1A5916530030F82C /* sorting.c */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		27016CCA1A5A09500030F82C /* BitManipulation */ = {
+			isa = PBXGroup;
+			children = (
+				27016CCB1A5A09670030F82C /* countergame.c */,
+			);
+			path = BitManipulation;
+			sourceTree = "<group>";
+		};
+		27016CCD1A5A216A0030F82C /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				27016CD01A5A325E0030F82C /* anagram.c */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		271EA3C31A2EF487001BE9D2 = {
+			isa = PBXGroup;
+			children = (
+				271EA3CE1A2EF487001BE9D2 /* hackerrank */,
+				271EA3CD1A2EF487001BE9D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		271EA3CD1A2EF487001BE9D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				271EA3CC1A2EF487001BE9D2 /* hackerrank */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		271EA3CE1A2EF487001BE9D2 /* hackerrank */ = {
+			isa = PBXGroup;
+			children = (
+				27016CBA1A59161A0030F82C /* Utilities */,
+				27016CAA1A5911BF0030F82C /* Algorithms */,
+				271EA3D11A2EF487001BE9D2 /* hackerrank.1 */,
+			);
+			path = hackerrank;
+			sourceTree = "<group>";
+		};
+		2759F96A1A5A5AC1006C30B0 /* GraphTheory */ = {
+			isa = PBXGroup;
+			children = (
+				2759F96B1A5A5AD3006C30B0 /* eventree.c */,
+				2759F96D1A5A5B38006C30B0 /* journeytothemoon.c */,
+				2759F96F1A5A5BCE006C30B0 /* snakesandladders.c */,
+				2759F9711A5A5BFE006C30B0 /* matrix.c */,
+				2759F9731A5A5C8B006C30B0 /* kingdomconnectivity.c */,
+			);
+			path = GraphTheory;
+			sourceTree = "<group>";
+		};
+		2759F9751A5A5F06006C30B0 /* Warmup */ = {
+			isa = PBXGroup;
+			children = (
+				2759F9761A5A5F33006C30B0 /* solvemefirst.c */,
+				2759F9781A5A5F99006C30B0 /* finddigits.c */,
+				2759F97A1A5A6028006C30B0 /* utopiantree.c */,
+				2759F97C1A5A6077006C30B0 /* angrychildren.c */,
+				2759F97E1A5A6386006C30B0 /* gameofthrones1.c */,
+				2759F9801A5A6476006C30B0 /* chocolatefeast.c */,
+				2759F9821A5A64BE006C30B0 /* sherlockandthebeast.c */,
+				2759F9841A5A6846006C30B0 /* isfibo.c */,
+				2759F9891A5A6DCF006C30B0 /* maximizingxor.c */,
+				271571231A5B801F002D61AB /* flippingbits.c */,
+				271571251A5D1256002D61AB /* fillingjars.c */,
+				271571271A5D14A0002D61AB /* sherlockandsquares.c */,
+				271571291A5D21E7002D61AB /* halloweenparty.c */,
+				2715712B1A5D235D002D61AB /* manasastones.c */,
+				2715712D1A5D2B3B002D61AB /* sherlockandGCG.c */,
+				2715712F1A5D3089002D61AB /* AcmIcpcTeam.c */,
+			);
+			path = Warmup;
+			sourceTree = "<group>";
+		};
+		27661DDA1A5E5D8600B31B95 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				27661DDB1A5E5DC500B31B95 /* cavitymap.c */,
+				27661DDD1A5E635400B31B95 /* servicelane.c */,
+				27D185201A62675C0085B6D0 /* cutthesticks.c */,
+				27D185221A6268FA0085B6D0 /* sherlockandarray.c */,
+				27D185241A626B320085B6D0 /* sherlockandqueries.c */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		271EA3CB1A2EF487001BE9D2 /* hackerrank */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271EA3D51A2EF487001BE9D2 /* Build configuration list for PBXNativeTarget "hackerrank" */;
+			buildPhases = (
+				271EA3C81A2EF487001BE9D2 /* Sources */,
+				271EA3C91A2EF487001BE9D2 /* Frameworks */,
+				271EA3CA1A2EF487001BE9D2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackerrank;
+			productName = hackerrank;
+			productReference = 271EA3CC1A2EF487001BE9D2 /* hackerrank */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		271EA3C41A2EF487001BE9D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kyle;
+			};
+			buildConfigurationList = 271EA3C71A2EF487001BE9D2 /* Build configuration list for PBXProject "hackerrank" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 271EA3C31A2EF487001BE9D2;
+			productRefGroup = 271EA3CD1A2EF487001BE9D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				271EA3CB1A2EF487001BE9D2 /* hackerrank */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		271EA3C81A2EF487001BE9D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27016CBD1A5916530030F82C /* sorting.c in Sources */,
+				27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */,
+				27016CC01A591E420030F82C /* candies.c in Sources */,
+				27016CB51A5911BF0030F82C /* mrkmarsh.c in Sources */,
+				2759F9851A5A6846006C30B0 /* isfibo.c in Sources */,
+				2759F97F1A5A6386006C30B0 /* gameofthrones1.c in Sources */,
+				27016CB41A5911BF0030F82C /* coinonthetable.c in Sources */,
+				2759F9701A5A5BCE006C30B0 /* snakesandladders.c in Sources */,
+				2759F9811A5A6476006C30B0 /* chocolatefeast.c in Sources */,
+				27016CB91A59123B0030F82C /* stockmaximize.c in Sources */,
+				2715712C1A5D235D002D61AB /* manasastones.c in Sources */,
+				271571241A5B801F002D61AB /* flippingbits.c in Sources */,
+				27016CB31A5911BF0030F82C /* circlecity.c in Sources */,
+				2759F97B1A5A6028006C30B0 /* utopiantree.c in Sources */,
+				271571261A5D1256002D61AB /* fillingjars.c in Sources */,
+				2759F9741A5A5C8B006C30B0 /* kingdomconnectivity.c in Sources */,
+				2759F9831A5A64BE006C30B0 /* sherlockandthebeast.c in Sources */,
+				27661DDE1A5E635400B31B95 /* servicelane.c in Sources */,
+				271571301A5D3089002D61AB /* AcmIcpcTeam.c in Sources */,
+				27016CD11A5A325E0030F82C /* anagram.c in Sources */,
+				27016CCC1A5A09680030F82C /* countergame.c in Sources */,
+				2715712A1A5D21E7002D61AB /* halloweenparty.c in Sources */,
+				27016CB21A5911BF0030F82C /* fullcountingsort.c in Sources */,
+				2759F96C1A5A5AD3006C30B0 /* eventree.c in Sources */,
+				27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */,
+				27016CB61A5911BF0030F82C /* thegridsearch.c in Sources */,
+				2759F9771A5A5F33006C30B0 /* solvemefirst.c in Sources */,
+				2759F96E1A5A5B38006C30B0 /* journeytothemoon.c in Sources */,
+				271571281A5D14A0002D61AB /* sherlockandsquares.c in Sources */,
+				2759F9721A5A5BFE006C30B0 /* matrix.c in Sources */,
+				27016CC21A59239C0030F82C /* maximumsubarray.c in Sources */,
+				27661DDC1A5E5DC500B31B95 /* cavitymap.c in Sources */,
+				27016CC51A5927B30030F82C /* lists.c in Sources */,
+				2759F98A1A5A6DCF006C30B0 /* maximizingxor.c in Sources */,
+				2759F9881A5A6927006C30B0 /* searching.c in Sources */,
+				27016CC71A593BBC0030F82C /* unboundedknapsack.c in Sources */,
+				2715712E1A5D2B3B002D61AB /* sherlockandGCG.c in Sources */,
+				27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */,
+				2759F9791A5A5F99006C30B0 /* finddigits.c in Sources */,
+				2759F97D1A5A6077006C30B0 /* angrychildren.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		271EA3D31A2EF487001BE9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		271EA3D41A2EF487001BE9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		271EA3D61A2EF487001BE9D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		271EA3D71A2EF487001BE9D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		271EA3C71A2EF487001BE9D2 /* Build configuration list for PBXProject "hackerrank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271EA3D31A2EF487001BE9D2 /* Debug */,
+				271EA3D41A2EF487001BE9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		271EA3D51A2EF487001BE9D2 /* Build configuration list for PBXNativeTarget "hackerrank" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271EA3D61A2EF487001BE9D2 /* Debug */,
+				271EA3D71A2EF487001BE9D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 271EA3C41A2EF487001BE9D2 /* Project object */;
+}
