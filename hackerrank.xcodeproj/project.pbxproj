@@ -48,6 +48,7 @@
 		27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185201A62675C0085B6D0 /* cutthesticks.c */; };
 		27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185221A6268FA0085B6D0 /* sherlockandarray.c */; };
 		27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185241A626B320085B6D0 /* sherlockandqueries.c */; };
+		27D185271A627F9B0085B6D0 /* lonelyinteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185261A627F9B0085B6D0 /* lonelyinteger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -110,6 +111,7 @@
 		27D185201A62675C0085B6D0 /* cutthesticks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutthesticks.c; sourceTree = "<group>"; };
 		27D185221A6268FA0085B6D0 /* sherlockandarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandarray.c; sourceTree = "<group>"; };
 		27D185241A626B320085B6D0 /* sherlockandqueries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandqueries.c; sourceTree = "<group>"; };
+		27D185261A627F9B0085B6D0 /* lonelyinteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lonelyinteger.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				27016CAF1A5911BF0030F82C /* coinonthetable.c */,
 				27016CB01A5911BF0030F82C /* mrkmarsh.c */,
 				27016CB11A5911BF0030F82C /* thegridsearch.c */,
+				27D185261A627F9B0085B6D0 /* lonelyinteger.c */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */,
 				27016CB61A5911BF0030F82C /* thegridsearch.c in Sources */,
 				2759F9771A5A5F33006C30B0 /* solvemefirst.c in Sources */,
+				27D185271A627F9B0085B6D0 /* lonelyinteger.c in Sources */,
 				2759F96E1A5A5B38006C30B0 /* journeytothemoon.c in Sources */,
 				271571281A5D14A0002D61AB /* sherlockandsquares.c in Sources */,
 				2759F9721A5A5BFE006C30B0 /* matrix.c in Sources */,

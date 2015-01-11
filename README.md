@@ -9,6 +9,8 @@ The solutions pass all test cases unless specified otherwise (comment "not solve
 
 I have a few helper files for C in Utilities. When submitting files that use a utility, I have just been replacing the includes with their associated implementations.
 
+Make sure that if you want to run one of the C solutions you change the function whose name matches the filename to be main.
+
 I have more solved than are on here but I only move over the old ones that are remotely readable :)
 
 If you're going to open it in XCode, I'm using Version 5.1 (5B130a) on OS X 10.10.1 (Yosemite)
