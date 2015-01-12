@@ -6,12 +6,8 @@
 //  Copyright (c) 2015 kyle. All rights reserved.
 //
 
-// NOT SOLVED YET
-
 #include <stdio.h>
 #include <stdlib.h>
-
-//#define MAX_VAL(a, b) (a > b ? a : b)
 
 #define BLOCKED 'x'
 #define CLEAR '.'
@@ -43,14 +39,9 @@ int mrkmarsh (void) {
             rect->height = 0;
             gridFences[i][j] = rect;
         }
-        
-        for (int j = 0; j < numColumns; j++) {
-            rectangle *rect = malloc(sizeof(rectangle));
-            rect->width = 0;
-            rect->height = 0;
-        }
     }
     
+    // find max unblocked width and height from each position.
     for (int i = numRows-1; i >= 0; i--) {
         for (int j = numColumns-1; j >= 0; j--) {
             if (grid[i][j] != BLOCKED) {
@@ -66,50 +57,27 @@ int mrkmarsh (void) {
     
     int bestPossibleDistance = 0; // 1-norm for perimeter
     
+    // check how close we can get to the max width & height stored above.
     for (int i = numRows-2; i >= 0; i--) {
         for (int j = numColumns-2; j >= 0; j--) {
             rectangle *fence = gridFences[i][j];
             int bestPossibleWidth = fence->width;
             int bestPossibleHeight = fence->height;
-            int distanceFound = 0;
             
-            for (int width = j + bestPossibleWidth; width > j; width--) {
-                for (int height = i + bestPossibleHeight; height > i; height--) {
+            // Might be able to do a more intelligent search
+            //   but this easily fits in the time limit.
+            for (int width = bestPossibleWidth; width > 0; width--) {
+                for (int height = bestPossibleHeight; height > 0; height--) {
+                    int otherHeight = gridFences[i][j+width]->height;
+                    int otherWidth = gridFences[i+height][j]->width;
                     
-                    int otherHeight = gridFences[i][width]->height;
-                    int otherWidth = gridFences[height][j]->width;
+                    int dHeight = height - otherHeight;
+                    int dWidth = width - otherWidth;
                     
-                    int dHeight = bestPossibleHeight - otherHeight;
-                    int dWidth = bestPossibleWidth - otherWidth;
-                    
-                    if (dHeight <= 0 && dWidth <= 0 && (width - j) + (height - i) > distanceFound) {
-                        distanceFound = (width - j) + (height - i);
+                    if (dHeight <= 0 && dWidth <= 0 && width + height > bestPossibleDistance) {
+                        bestPossibleDistance = width + height;
                     }
                 }
-            }
-            
-            // using this loop instead of above seems to give different success cases
-            // so bug somewhere because this should be just less exhaustive version of above.
-            // ie it shouldn't succeed where above one fails, but it appears to.
-//            while (bestPossibleHeight > 0 && bestPossibleWidth > 0) {
-//                int otherHeight = gridFences[i][j+bestPossibleWidth]->height;
-//                int otherWidth = gridFences[i+bestPossibleHeight][j]->width;
-//                
-//                int dHeight = MAX_VAL(bestPossibleHeight - otherHeight, 0);
-//                int dWidth = MAX_VAL(bestPossibleWidth - otherWidth, 0);
-//                
-//                if (dHeight > dWidth) {
-//                    bestPossibleWidth--;
-//                } else if (dHeight < dWidth) {
-//                    bestPossibleHeight--;
-//                } else {
-//                    distanceFound = bestPossibleHeight + bestPossibleWidth;
-//                    break;
-//                }
-//            }
-            
-            if (distanceFound > bestPossibleDistance) {
-                bestPossibleDistance = distanceFound;
             }
         }
     }
