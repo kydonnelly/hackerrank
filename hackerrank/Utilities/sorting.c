@@ -6,16 +6,18 @@
 //  Copyright (c) 2015 kyle. All rights reserved.
 //
 
-void quicksort_index_recursive (int *array, int *idx, int begin, int end) {
+void quicksort_index_recursive (int *array, int *idx, int begin, int end, int isAscending) {
 	if (end > begin + 1) {
 		int pivot = array[idx[(end+begin)/2]];
         int left = begin;
         int right = end - 1;
         
 		while (left <= right) {
-			if (array[idx[left]] > pivot) {
+			if (isAscending ? array[idx[left]] < pivot
+                            : array[idx[left]] > pivot) {
 				left++;
-            } else if (array[idx[right]] < pivot) {
+            } else if (isAscending ? array[idx[right]] > pivot
+                                   : array[idx[right]] < pivot) {
 				right--;
 			} else {
 				int t = idx[left];
@@ -24,8 +26,8 @@ void quicksort_index_recursive (int *array, int *idx, int begin, int end) {
 			}
 		}
         
-		quicksort_index_recursive(array, idx, begin, right+1);
-		quicksort_index_recursive(array, idx, left, end);
+		quicksort_index_recursive(array, idx, begin, right+1, isAscending);
+		quicksort_index_recursive(array, idx, left, end, isAscending);
 	}
 }
 
@@ -33,8 +35,12 @@ void quicksort_index_recursive (int *array, int *idx, int begin, int end) {
 //
 //  Permutes idx so that its values correspond to a sorted order of the array
 //   but the array is not actually changed.
-void quicksort_index (int *array, int *idx, int length) {
-    quicksort_index_recursive(array, idx, 0, length);
+void quicksort_index_descending (int *array, int *idx, int length) {
+    quicksort_index_recursive(array, idx, 0, length, 0);
+}
+
+void quicksort_index_ascending(int *array, int *idx, int length) {
+    quicksort_index_recursive(array, idx, 0, length, 1);
 }
 
 void quicksort_recursive (int *array, int begin, int end, int isAscending) {

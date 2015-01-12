@@ -51,7 +51,7 @@ int stockmaximize (void) {
             sortedPriceIndexes[i] = i;
         }
         
-        quicksort_index(prices, sortedPriceIndexes, numDays);
+        quicksort_index_descending(prices, sortedPriceIndexes, numDays);
         
         for (int i = 0; i < numDays && lastIndex < numDays; i++) {
             if (sortedPriceIndexes[i] >= lastIndex) {

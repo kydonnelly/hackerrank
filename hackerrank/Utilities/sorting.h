@@ -11,6 +11,8 @@
 
 void quicksort_ascending(int *array, int length);
 void quicksort_descending(int *array, int length);
-void quicksort_index(int *array, int *idx, int length);
+
+void quicksort_index_ascending(int *array, int *idx, int length);
+void quicksort_index_descending(int *array, int *idx, int length);
 
 #endif
