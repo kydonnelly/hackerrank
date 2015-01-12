@@ -13,7 +13,7 @@
 #include <math.h>
 #include <string.h>
 
-int main (void) {
+int encryption (void) {
 	char *message = malloc(sizeof(char) * MAX_LEN);
 	scanf("%s", message);
     
