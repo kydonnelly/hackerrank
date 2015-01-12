@@ -47,6 +47,7 @@
 		27661DDE1A5E635400B31B95 /* servicelane.c in Sources */ = {isa = PBXBuildFile; fileRef = 27661DDD1A5E635400B31B95 /* servicelane.c */; };
 		27C754511A636A6A00AB7F66 /* icecreamparlor.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754501A636A6A00AB7F66 /* icecreamparlor.c */; };
 		27C754531A63701600AB7F66 /* encryption.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754521A63701600AB7F66 /* encryption.c */; };
+		27C754551A6371EE00AB7F66 /* missingnumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754541A6371EE00AB7F66 /* missingnumbers.c */; };
 		27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185201A62675C0085B6D0 /* cutthesticks.c */; };
 		27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185221A6268FA0085B6D0 /* sherlockandarray.c */; };
 		27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185241A626B320085B6D0 /* sherlockandqueries.c */; };
@@ -112,6 +113,7 @@
 		27661DDD1A5E635400B31B95 /* servicelane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = servicelane.c; sourceTree = "<group>"; };
 		27C754501A636A6A00AB7F66 /* icecreamparlor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icecreamparlor.c; sourceTree = "<group>"; };
 		27C754521A63701600AB7F66 /* encryption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encryption.c; sourceTree = "<group>"; };
+		27C754541A6371EE00AB7F66 /* missingnumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = missingnumbers.c; sourceTree = "<group>"; };
 		27D185201A62675C0085B6D0 /* cutthesticks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutthesticks.c; sourceTree = "<group>"; };
 		27D185221A6268FA0085B6D0 /* sherlockandarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandarray.c; sourceTree = "<group>"; };
 		27D185241A626B320085B6D0 /* sherlockandqueries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandqueries.c; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				27D185261A627F9B0085B6D0 /* lonelyinteger.c */,
 				27C754501A636A6A00AB7F66 /* icecreamparlor.c */,
 				27C754521A63701600AB7F66 /* encryption.c */,
+				27C754541A6371EE00AB7F66 /* missingnumbers.c */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				2759F9811A5A6476006C30B0 /* chocolatefeast.c in Sources */,
 				27016CB91A59123B0030F82C /* stockmaximize.c in Sources */,
 				2715712C1A5D235D002D61AB /* manasastones.c in Sources */,
+				27C754551A6371EE00AB7F66 /* missingnumbers.c in Sources */,
 				271571241A5B801F002D61AB /* flippingbits.c in Sources */,
 				27C754511A636A6A00AB7F66 /* icecreamparlor.c in Sources */,
 				27016CB31A5911BF0030F82C /* circlecity.c in Sources */,
