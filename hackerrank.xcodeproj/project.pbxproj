@@ -52,6 +52,13 @@
 		27C7545A1A63753900AB7F66 /* markAndToys.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754591A63753900AB7F66 /* markAndToys.c */; };
 		27C7545C1A63767900AB7F66 /* twoArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7545B1A63767900AB7F66 /* twoArrays.c */; };
 		27C7545E1A6377CB00AB7F66 /* flowers.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7545D1A6377CB00AB7F66 /* flowers.c */; };
+		27C754611A63791800AB7F66 /* keywordTranspositionCipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754601A63791800AB7F66 /* keywordTranspositionCipher.c */; };
+		27C754641A6379DB00AB7F66 /* minimumDraws.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754631A6379DB00AB7F66 /* minimumDraws.c */; };
+		27C754661A637A7F00AB7F66 /* handshake.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754651A637A7F00AB7F66 /* handshake.c */; };
+		27C754681A637AD700AB7F66 /* pickingCards.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754671A637AD700AB7F66 /* pickingCards.c */; };
+		27C7546B1A637C9400AB7F66 /* birthdayGift.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546A1A637C9400AB7F66 /* birthdayGift.c */; };
+		27C7546E1A637D9800AB7F66 /* findPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546D1A637D9800AB7F66 /* findPoint.c */; };
+		27C754701A637E3E00AB7F66 /* meetingPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546F1A637E3E00AB7F66 /* meetingPoint.c */; };
 		27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185201A62675C0085B6D0 /* cutthesticks.c */; };
 		27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185221A6268FA0085B6D0 /* sherlockandarray.c */; };
 		27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185241A626B320085B6D0 /* sherlockandqueries.c */; };
@@ -122,6 +129,13 @@
 		27C754591A63753900AB7F66 /* markAndToys.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = markAndToys.c; sourceTree = "<group>"; };
 		27C7545B1A63767900AB7F66 /* twoArrays.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = twoArrays.c; sourceTree = "<group>"; };
 		27C7545D1A6377CB00AB7F66 /* flowers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = flowers.c; sourceTree = "<group>"; };
+		27C754601A63791800AB7F66 /* keywordTranspositionCipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = keywordTranspositionCipher.c; sourceTree = "<group>"; };
+		27C754631A6379DB00AB7F66 /* minimumDraws.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minimumDraws.c; sourceTree = "<group>"; };
+		27C754651A637A7F00AB7F66 /* handshake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = handshake.c; sourceTree = "<group>"; };
+		27C754671A637AD700AB7F66 /* pickingCards.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pickingCards.c; sourceTree = "<group>"; };
+		27C7546A1A637C9400AB7F66 /* birthdayGift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = birthdayGift.c; sourceTree = "<group>"; };
+		27C7546D1A637D9800AB7F66 /* findPoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = findPoint.c; sourceTree = "<group>"; };
+		27C7546F1A637E3E00AB7F66 /* meetingPoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = meetingPoint.c; sourceTree = "<group>"; };
 		27D185201A62675C0085B6D0 /* cutthesticks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutthesticks.c; sourceTree = "<group>"; };
 		27D185221A6268FA0085B6D0 /* sherlockandarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandarray.c; sourceTree = "<group>"; };
 		27D185241A626B320085B6D0 /* sherlockandqueries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandqueries.c; sourceTree = "<group>"; };
@@ -144,10 +158,14 @@
 			children = (
 				27016CAB1A5911BF0030F82C /* ArraysAndSorting */,
 				27016CCA1A5A09500030F82C /* BitManipulation */,
+				27C754621A6379CF00AB7F66 /* Combinatorics */,
+				27C7545F1A63790700AB7F66 /* Cryptography */,
 				27016CB71A5912240030F82C /* DynamicProgramming */,
+				27C7546C1A637D8600AB7F66 /* Geometry */,
 				2759F96A1A5A5AC1006C30B0 /* GraphTheory */,
 				27C754581A63752800AB7F66 /* Greedy */,
 				27661DDA1A5E5D8600B31B95 /* Implementation */,
+				27C754691A637C8A00AB7F66 /* Probability */,
 				27016CAD1A5911BF0030F82C /* Search */,
 				27016CCD1A5A216A0030F82C /* Strings */,
 				2759F9751A5A5F06006C30B0 /* Warmup */,
@@ -303,6 +321,41 @@
 			path = Greedy;
 			sourceTree = "<group>";
 		};
+		27C7545F1A63790700AB7F66 /* Cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				27C754601A63791800AB7F66 /* keywordTranspositionCipher.c */,
+			);
+			path = Cryptography;
+			sourceTree = "<group>";
+		};
+		27C754621A6379CF00AB7F66 /* Combinatorics */ = {
+			isa = PBXGroup;
+			children = (
+				27C754631A6379DB00AB7F66 /* minimumDraws.c */,
+				27C754651A637A7F00AB7F66 /* handshake.c */,
+				27C754671A637AD700AB7F66 /* pickingCards.c */,
+			);
+			path = Combinatorics;
+			sourceTree = "<group>";
+		};
+		27C754691A637C8A00AB7F66 /* Probability */ = {
+			isa = PBXGroup;
+			children = (
+				27C7546A1A637C9400AB7F66 /* birthdayGift.c */,
+			);
+			path = Probability;
+			sourceTree = "<group>";
+		};
+		27C7546C1A637D8600AB7F66 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				27C7546D1A637D9800AB7F66 /* findPoint.c */,
+				27C7546F1A637E3E00AB7F66 /* meetingPoint.c */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -360,12 +413,16 @@
 				27016CC01A591E420030F82C /* candies.c in Sources */,
 				27016CB51A5911BF0030F82C /* mrkmarsh.c in Sources */,
 				2759F9851A5A6846006C30B0 /* isfibo.c in Sources */,
+				27C754641A6379DB00AB7F66 /* minimumDraws.c in Sources */,
 				2759F97F1A5A6386006C30B0 /* gameofthrones1.c in Sources */,
+				27C7546B1A637C9400AB7F66 /* birthdayGift.c in Sources */,
 				27C7545A1A63753900AB7F66 /* markAndToys.c in Sources */,
 				27016CB41A5911BF0030F82C /* coinonthetable.c in Sources */,
 				2759F9701A5A5BCE006C30B0 /* snakesandladders.c in Sources */,
 				2759F9811A5A6476006C30B0 /* chocolatefeast.c in Sources */,
+				27C7546E1A637D9800AB7F66 /* findPoint.c in Sources */,
 				27016CB91A59123B0030F82C /* stockmaximize.c in Sources */,
+				27C754611A63791800AB7F66 /* keywordTranspositionCipher.c in Sources */,
 				27C7545E1A6377CB00AB7F66 /* flowers.c in Sources */,
 				2715712C1A5D235D002D61AB /* manasastones.c in Sources */,
 				27C754551A6371EE00AB7F66 /* missingnumbers.c in Sources */,
@@ -373,6 +430,7 @@
 				27C754511A636A6A00AB7F66 /* icecreamparlor.c in Sources */,
 				27016CB31A5911BF0030F82C /* circlecity.c in Sources */,
 				2759F97B1A5A6028006C30B0 /* utopiantree.c in Sources */,
+				27C754681A637AD700AB7F66 /* pickingCards.c in Sources */,
 				271571261A5D1256002D61AB /* fillingjars.c in Sources */,
 				2759F9741A5A5C8B006C30B0 /* kingdomconnectivity.c in Sources */,
 				2759F9831A5A64BE006C30B0 /* sherlockandthebeast.c in Sources */,
@@ -383,6 +441,7 @@
 				27C7545C1A63767900AB7F66 /* twoArrays.c in Sources */,
 				2715712A1A5D21E7002D61AB /* halloweenparty.c in Sources */,
 				27016CB21A5911BF0030F82C /* fullcountingsort.c in Sources */,
+				27C754661A637A7F00AB7F66 /* handshake.c in Sources */,
 				2759F96C1A5A5AD3006C30B0 /* eventree.c in Sources */,
 				27C754531A63701600AB7F66 /* encryption.c in Sources */,
 				27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */,
@@ -391,6 +450,7 @@
 				27D185271A627F9B0085B6D0 /* lonelyinteger.c in Sources */,
 				2759F96E1A5A5B38006C30B0 /* journeytothemoon.c in Sources */,
 				271571281A5D14A0002D61AB /* sherlockandsquares.c in Sources */,
+				27C754701A637E3E00AB7F66 /* meetingPoint.c in Sources */,
 				2759F9721A5A5BFE006C30B0 /* matrix.c in Sources */,
 				27016CC21A59239C0030F82C /* maximumsubarray.c in Sources */,
 				27661DDC1A5E5DC500B31B95 /* cavitymap.c in Sources */,
