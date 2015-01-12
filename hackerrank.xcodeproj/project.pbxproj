@@ -59,6 +59,7 @@
 		27C7546B1A637C9400AB7F66 /* birthdayGift.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546A1A637C9400AB7F66 /* birthdayGift.c */; };
 		27C7546E1A637D9800AB7F66 /* findPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546D1A637D9800AB7F66 /* findPoint.c */; };
 		27C754701A637E3E00AB7F66 /* meetingPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546F1A637E3E00AB7F66 /* meetingPoint.c */; };
+		27C754721A639C9400AB7F66 /* countluck.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754711A639C9400AB7F66 /* countluck.c */; };
 		27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185201A62675C0085B6D0 /* cutthesticks.c */; };
 		27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185221A6268FA0085B6D0 /* sherlockandarray.c */; };
 		27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185241A626B320085B6D0 /* sherlockandqueries.c */; };
@@ -136,6 +137,7 @@
 		27C7546A1A637C9400AB7F66 /* birthdayGift.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = birthdayGift.c; sourceTree = "<group>"; };
 		27C7546D1A637D9800AB7F66 /* findPoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = findPoint.c; sourceTree = "<group>"; };
 		27C7546F1A637E3E00AB7F66 /* meetingPoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = meetingPoint.c; sourceTree = "<group>"; };
+		27C754711A639C9400AB7F66 /* countluck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = countluck.c; sourceTree = "<group>"; };
 		27D185201A62675C0085B6D0 /* cutthesticks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutthesticks.c; sourceTree = "<group>"; };
 		27D185221A6268FA0085B6D0 /* sherlockandarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandarray.c; sourceTree = "<group>"; };
 		27D185241A626B320085B6D0 /* sherlockandqueries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandqueries.c; sourceTree = "<group>"; };
@@ -193,6 +195,7 @@
 				27C754521A63701600AB7F66 /* encryption.c */,
 				27C754541A6371EE00AB7F66 /* missingnumbers.c */,
 				27C754561A6373AA00AB7F66 /* pairs.c */,
+				27C754711A639C9400AB7F66 /* countluck.c */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				2715712C1A5D235D002D61AB /* manasastones.c in Sources */,
 				27C754551A6371EE00AB7F66 /* missingnumbers.c in Sources */,
 				271571241A5B801F002D61AB /* flippingbits.c in Sources */,
+				27C754721A639C9400AB7F66 /* countluck.c in Sources */,
 				27C754511A636A6A00AB7F66 /* icecreamparlor.c in Sources */,
 				27016CB31A5911BF0030F82C /* circlecity.c in Sources */,
 				2759F97B1A5A6028006C30B0 /* utopiantree.c in Sources */,
