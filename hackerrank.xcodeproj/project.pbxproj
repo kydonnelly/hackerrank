@@ -45,6 +45,7 @@
 		2759F98A1A5A6DCF006C30B0 /* maximizingxor.c in Sources */ = {isa = PBXBuildFile; fileRef = 2759F9891A5A6DCF006C30B0 /* maximizingxor.c */; };
 		27661DDC1A5E5DC500B31B95 /* cavitymap.c in Sources */ = {isa = PBXBuildFile; fileRef = 27661DDB1A5E5DC500B31B95 /* cavitymap.c */; };
 		27661DDE1A5E635400B31B95 /* servicelane.c in Sources */ = {isa = PBXBuildFile; fileRef = 27661DDD1A5E635400B31B95 /* servicelane.c */; };
+		2798385E1A64E4A200C770AA /* trees.c in Sources */ = {isa = PBXBuildFile; fileRef = 2798385D1A64E4A200C770AA /* trees.c */; };
 		27C754511A636A6A00AB7F66 /* icecreamparlor.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754501A636A6A00AB7F66 /* icecreamparlor.c */; };
 		27C754531A63701600AB7F66 /* encryption.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754521A63701600AB7F66 /* encryption.c */; };
 		27C754551A6371EE00AB7F66 /* missingnumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754541A6371EE00AB7F66 /* missingnumbers.c */; };
@@ -61,10 +62,13 @@
 		27C754701A637E3E00AB7F66 /* meetingPoint.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C7546F1A637E3E00AB7F66 /* meetingPoint.c */; };
 		27C754721A639C9400AB7F66 /* countluck.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754711A639C9400AB7F66 /* countluck.c */; };
 		27C754741A63A41200AB7F66 /* cutTheTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754731A63A41200AB7F66 /* cutTheTree.c */; };
+		27C754761A64E43100AB7F66 /* median.c in Sources */ = {isa = PBXBuildFile; fileRef = 27C754751A64E43100AB7F66 /* median.c */; };
 		27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185201A62675C0085B6D0 /* cutthesticks.c */; };
 		27D185231A6268FA0085B6D0 /* sherlockandarray.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185221A6268FA0085B6D0 /* sherlockandarray.c */; };
 		27D185251A626B320085B6D0 /* sherlockandqueries.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185241A626B320085B6D0 /* sherlockandqueries.c */; };
 		27D185271A627F9B0085B6D0 /* lonelyinteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185261A627F9B0085B6D0 /* lonelyinteger.c */; };
+		27E4F6871A6CEB3F00E2F2EC /* SansaAndXor.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E4F6861A6CEB3F00E2F2EC /* SansaAndXor.c */; };
+		27E4F6891A6CF67000E2F2EC /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E4F6881A6CF67000E2F2EC /* cipher.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +128,8 @@
 		2759F98B1A5A7023006C30B0 /* primitivetypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = primitivetypes.h; sourceTree = "<group>"; };
 		27661DDB1A5E5DC500B31B95 /* cavitymap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cavitymap.c; sourceTree = "<group>"; };
 		27661DDD1A5E635400B31B95 /* servicelane.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = servicelane.c; sourceTree = "<group>"; };
+		2798385C1A64E49B00C770AA /* trees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trees.h; sourceTree = "<group>"; };
+		2798385D1A64E4A200C770AA /* trees.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = trees.c; sourceTree = "<group>"; };
 		27C754501A636A6A00AB7F66 /* icecreamparlor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = icecreamparlor.c; sourceTree = "<group>"; };
 		27C754521A63701600AB7F66 /* encryption.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encryption.c; sourceTree = "<group>"; };
 		27C754541A6371EE00AB7F66 /* missingnumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = missingnumbers.c; sourceTree = "<group>"; };
@@ -140,10 +146,13 @@
 		27C7546F1A637E3E00AB7F66 /* meetingPoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = meetingPoint.c; sourceTree = "<group>"; };
 		27C754711A639C9400AB7F66 /* countluck.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = countluck.c; sourceTree = "<group>"; };
 		27C754731A63A41200AB7F66 /* cutTheTree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutTheTree.c; sourceTree = "<group>"; };
+		27C754751A64E43100AB7F66 /* median.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = median.c; sourceTree = "<group>"; };
 		27D185201A62675C0085B6D0 /* cutthesticks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cutthesticks.c; sourceTree = "<group>"; };
 		27D185221A6268FA0085B6D0 /* sherlockandarray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandarray.c; sourceTree = "<group>"; };
 		27D185241A626B320085B6D0 /* sherlockandqueries.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sherlockandqueries.c; sourceTree = "<group>"; };
 		27D185261A627F9B0085B6D0 /* lonelyinteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lonelyinteger.c; sourceTree = "<group>"; };
+		27E4F6861A6CEB3F00E2F2EC /* SansaAndXor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SansaAndXor.c; sourceTree = "<group>"; };
+		27E4F6881A6CF67000E2F2EC /* cipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cipher.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +208,7 @@
 				27C754561A6373AA00AB7F66 /* pairs.c */,
 				27C754711A639C9400AB7F66 /* countluck.c */,
 				27C754731A63A41200AB7F66 /* cutTheTree.c */,
+				27C754751A64E43100AB7F66 /* median.c */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -224,6 +234,8 @@
 				2759F9871A5A6927006C30B0 /* searching.c */,
 				27016CBE1A59165C0030F82C /* sorting.h */,
 				27016CBC1A5916530030F82C /* sorting.c */,
+				2798385C1A64E49B00C770AA /* trees.h */,
+				2798385D1A64E4A200C770AA /* trees.c */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -232,6 +244,8 @@
 			isa = PBXGroup;
 			children = (
 				27016CCB1A5A09670030F82C /* countergame.c */,
+				27E4F6861A6CEB3F00E2F2EC /* SansaAndXor.c */,
+				27E4F6881A6CF67000E2F2EC /* cipher.c */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -435,6 +449,7 @@
 				27C754551A6371EE00AB7F66 /* missingnumbers.c in Sources */,
 				271571241A5B801F002D61AB /* flippingbits.c in Sources */,
 				27C754721A639C9400AB7F66 /* countluck.c in Sources */,
+				2798385E1A64E4A200C770AA /* trees.c in Sources */,
 				27C754511A636A6A00AB7F66 /* icecreamparlor.c in Sources */,
 				27016CB31A5911BF0030F82C /* circlecity.c in Sources */,
 				2759F97B1A5A6028006C30B0 /* utopiantree.c in Sources */,
@@ -464,12 +479,15 @@
 				27661DDC1A5E5DC500B31B95 /* cavitymap.c in Sources */,
 				27016CC51A5927B30030F82C /* lists.c in Sources */,
 				2759F98A1A5A6DCF006C30B0 /* maximizingxor.c in Sources */,
+				27E4F6871A6CEB3F00E2F2EC /* SansaAndXor.c in Sources */,
+				27E4F6891A6CF67000E2F2EC /* cipher.c in Sources */,
 				2759F9881A5A6927006C30B0 /* searching.c in Sources */,
 				27016CC71A593BBC0030F82C /* unboundedknapsack.c in Sources */,
 				2715712E1A5D2B3B002D61AB /* sherlockandGCG.c in Sources */,
 				27D185211A62675C0085B6D0 /* cutthesticks.c in Sources */,
 				2759F9791A5A5F99006C30B0 /* finddigits.c in Sources */,
 				2759F97D1A5A6077006C30B0 /* angrychildren.c in Sources */,
+				27C754761A64E43100AB7F66 /* median.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
