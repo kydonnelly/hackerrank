@@ -69,6 +69,7 @@
 		27D185271A627F9B0085B6D0 /* lonelyinteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 27D185261A627F9B0085B6D0 /* lonelyinteger.c */; };
 		27E4F6871A6CEB3F00E2F2EC /* SansaAndXor.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E4F6861A6CEB3F00E2F2EC /* SansaAndXor.c */; };
 		27E4F6891A6CF67000E2F2EC /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E4F6881A6CF67000E2F2EC /* cipher.c */; };
+		27E4F68B1A6CFE8100E2F2EC /* AndProduct.c in Sources */ = {isa = PBXBuildFile; fileRef = 27E4F68A1A6CFE8100E2F2EC /* AndProduct.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -153,6 +154,7 @@
 		27D185261A627F9B0085B6D0 /* lonelyinteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lonelyinteger.c; sourceTree = "<group>"; };
 		27E4F6861A6CEB3F00E2F2EC /* SansaAndXor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SansaAndXor.c; sourceTree = "<group>"; };
 		27E4F6881A6CF67000E2F2EC /* cipher.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cipher.c; sourceTree = "<group>"; };
+		27E4F68A1A6CFE8100E2F2EC /* AndProduct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AndProduct.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				27016CCB1A5A09670030F82C /* countergame.c */,
 				27E4F6861A6CEB3F00E2F2EC /* SansaAndXor.c */,
 				27E4F6881A6CF67000E2F2EC /* cipher.c */,
+				27E4F68A1A6CFE8100E2F2EC /* AndProduct.c */,
 			);
 			path = BitManipulation;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				27016CD11A5A325E0030F82C /* anagram.c in Sources */,
 				27016CCC1A5A09680030F82C /* countergame.c in Sources */,
 				27C7545C1A63767900AB7F66 /* twoArrays.c in Sources */,
+				27E4F68B1A6CFE8100E2F2EC /* AndProduct.c in Sources */,
 				2715712A1A5D21E7002D61AB /* halloweenparty.c in Sources */,
 				27016CB21A5911BF0030F82C /* fullcountingsort.c in Sources */,
 				27C754661A637A7F00AB7F66 /* handshake.c in Sources */,
